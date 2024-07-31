@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.banner{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('/resimler/heykel.jpg');
+    background-size: cover; /* Arka planın kapsaması için */
+    background-position: center; /* Arka planın ortalanması için */
+    background-repeat: no-repeat; /* Tekrarlanmaması için */
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+    transition: 1s;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 20%;
+
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+    
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: white;
+    text-align: center;
+}
+.content h1{
+    font-size: 65px;
+    color: rgb(109, 109, 44);
+
+}
+.button{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 30px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #6166b3;
+    font-size: 17px;
+
+}
+button:hover{
+    color: #101559;
+    transition: 1s;
+}
